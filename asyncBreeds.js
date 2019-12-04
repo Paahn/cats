@@ -17,3 +17,4 @@ const bombay = breedDetailsFromFile('Bombay', (bombay) => {
   console.log("Return value", bombay);
 });
 // console.log('Return Value: ', bombay) // => will NOT print out details, instead we will see undefined!
+module.exports = breedDetailsFromFile;
